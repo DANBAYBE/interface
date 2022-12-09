@@ -1,0 +1,284 @@
+/*--인덱스 CSS적용--*/
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cont{
+    width: 1100px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    width: 1100px;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+}
+
+.box0{
+    width: 100%
+}
+
+.box1{height:320px; display: flex; justify-content: center;}
+.box2{height:284px; margin-top: 38px; display :flex; justify-content: space-between;}
+.box3{height:46px; margin-top: 83px; display: flex; justify-content: space-around; }
+.box4{margin-top: 120px; display: flex; justify-content: center;}
+
+
+
+/*--네비게이션 시작--*/
+nav{
+    width: 100%;
+    height: 113px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+ul{
+    width: 1100px;
+    height: 113px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+}
+.bt00:hover{opacity: 0.3;}
+.bt01:hover{opacity: 0.3;}
+.bt02:hover{opacity: 0.3;}
+.bt03:hover{opacity: 0.3;}
+.bt99{width: 311px;}
+
+
+/*--서브01 적용--*/
+
+section{
+    background-image: url(sub1/s01_bg.png);
+
+    
+}
+.s01_b00{
+    width: 100%;
+}
+
+
+.s01_b01{
+    background-image: url(sub1/s01_01.png);
+    height:882px;
+}
+.s01_b02{
+    height: 928px;
+}
+.s01_b03{
+    height: 151px;
+}
+.s01_b04{
+    height: 353px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s01_b05{
+    height: 285px;
+}
+.s01_b06{
+    height: 521px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+} 
+.s01_b07{
+    height: 423px;
+}
+.s01_b08{
+    height: 281px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s01_b09{
+    height: 232px;
+}
+
+.ft{
+    width: 100%; height:220px ;
+    text-align: center;
+}
+
+
+
+/*--서브02 적용--*/
+
+.section2{
+    background-image: url(sub2/s02_bg.png);
+}
+
+.s02_b00{
+    width: 100%;
+}
+
+.s02_b01{
+    height: 729px;
+}
+.s02_b02{
+    height: 1154px; 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s02_b03{
+    height: 270px;
+}
+.s02_b04{
+    height: 783px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s02_b05{
+    height: 270px;
+}
+.s02_b06{
+    height: 1016px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s02_b07{
+    height: 270px;
+}
+.s02_b08{
+    height: 1115px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s02_b09{
+    height: 270px;
+}
+.s02_b010{
+    height: 1329px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s02_b011{
+    height: 270px;
+}
+
+.s02_b012{
+    height: 1093px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.s02_b013{
+    height: 270px;
+}
+
+.s02_b014{
+    height: 1093px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.s02_b015{
+    height: 840px;
+}
+.ft2{
+    width: 100%; height: 220px;
+    text-align: center;
+}
+
+
+
+
+/*--서브03 적용--*/
+
+.cont2{
+    background-color: black;
+}
+
+
+
+.s03_b00{
+    width: 100%;
+}
+
+.s03_b01{
+    height: 350px;
+}
+.s03_b02{
+    height: 406px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s03_b03{
+    height: 312px;
+}
+.s03_b04{
+    height: 65px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.s03_b05{
+    height: 54px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s03_b06{
+    height: 353px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s03_b07{
+    height: 139px; 
+}
+.s03_b08{
+    height: 710px;
+    display: flex;
+    align-items: center;
+}
+.s03_b09{
+    height: 54px;
+}
+
+.s03_b010{
+    height: 1037px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.s03_b011{
+    height: 544px;
+}
+.s03_b012{
+    height: 227px;    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.s03_b013{
+    height: 547px;
+}
+
+
+.ft3{
+    width: 100%; height: 220px;
+    text-align: center;
+}
